@@ -10,3 +10,6 @@
 @use 'components/footer';
 @use 'components/breakpoints';
 
+.debug-ol {
+    outline: dashed red;
+}
