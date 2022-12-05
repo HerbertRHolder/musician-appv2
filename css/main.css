@@ -20,6 +20,7 @@ body {
 }
 
 main {
+  width: 100%;
   min-height: 1000px;
 }
 
@@ -183,6 +184,10 @@ header {
 /* For 2K & 4K resolutions */
 .debug-ol {
   outline: dashed red;
+}
+
+.debug-bg {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=main.css.map */
