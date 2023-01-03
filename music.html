@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="music-page">
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" data-bs-backdrop="static" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
@@ -34,7 +34,7 @@
             <li aria-roledescription="menu item"><a href="gallery.html">Gallery</a></li>
             <li aria-roledescription="menu item"><a href="blog.html">Blog</a></li>
         </ul>
-        <img id="bee" width="200px"src="css/img/The_Lone_Pollinator-removebg-preview.png" alt="">
+        <img id="bee"src="css/img/The_Lone_Pollinator-removebg-preview.png" alt="">
       </div>
     </div>
 
@@ -52,19 +52,42 @@
     </header>
 
     <main id="main w-100 h-100">
-       <section class="profile-cont w-100">
-            <div class="profile-frame"></div>
-       </section>
+        <section class="hero d-flex flex-column justify-content-center align-items-center">
+            <div class="hero-wrapper d-flex flex-column align-items-center justify-content-center">
+                <div class="ray"></div>
+                <div class="hero-img"></div>
+                <div class="hero-music-cont">
+                    <div class="player" id="player">
+                        <div class="player-btn player-prev " id="prev">
+                            <ion-icon name="play-back-sharp"></ion-icon>
+                        </div>
+                        <div class="player-btn player-play" id="play">
+                            <ion-icon name="play-sharp"></ion-icon>
+                        </div>
+                        <div class="player-btn player-next " id="next">
+                            <ion-icon name="play-forward-sharp"></ion-icon>
+                        </div>
+                        <audio src="music/ChasinDaisys.mp3" id="audio"></audio>
+                    </div>
+                </div>
+            </div>
+          
+
+
+
+
+
+
+        </section>
     </main>
 
 
 
-    <section class="footer py-20 bg-dark overflow-hidden mt-5">
+    <section class="footer music-footer py-20 bg-dark overflow-hidden mt-5">
         <div class="container">
             <div class="text-center pb-20">
 
                 <a class="d-inline-block mb-4 mt-4" href="#">
-                   
                 </a>
 
                 <div class="row mt-20 text-center d-flex justify-content-center">
@@ -107,6 +130,7 @@
         crossorigin="anonymous"></script>
     <script src="js/keys.js"></script>
     <script src="js/api.js"></script>
+    <script src="js/player.js"></script>
     <script src="js/header.js"></script>
     <script src="js/index.js"></script>
 </body>

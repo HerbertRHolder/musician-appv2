@@ -1,6 +1,8 @@
 (function(){
 "use strict"
     let container = document.getElementById("menu-cont");
+    let close = document.getElementById("close");
+    close.addEventListener("click",menuRevert)
 
     function menuRevert() {
         const ms1 = document.getElementById('ms1');

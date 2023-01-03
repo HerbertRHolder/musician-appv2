@@ -7,6 +7,40 @@
 // @media screen and (max-width: 320px){
   
 // }
+@media screen and (max-width: 550px){
+  body {
+    background-position: 50% 300px;
+  }
+  .hero-wrapper{
+    width: 250px !important;
+    
+  }
+  .hero-img{
+    width: 200px !important;
+    height: 200px !important;
+    background-size: 200px;
+    background-position: 0 90% !important;
+  }
+  .ray{
+    display: none;
+  }
+  .hero-music-cont{
+    top: 40% !important;
+  }
+  .player-btn{
+    width: 56px !important;
+    height:56px !important;
+    
+    ion-icon{
+      font-size: 2rem !important;
+    }
+    .player-play {
+      padding-left: .1rem;
+    }
+  }
+
+
+}
 
 // @media screen and (min-width: 767px){
 
