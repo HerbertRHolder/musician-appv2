@@ -41,6 +41,17 @@
     play.remove();
     cont.insertBefore(pause,next);
     audio.play();
+    console.log("Audio: ",audio.duration);
+    console.log("Audio Current: ",audio.currentTime);
+   
+    audio.addEventListener("play",()=>{
+      audio.addEventListener("timeupdate",()=> {
+        console.log("play time: ",audio.currentTime);
+        audio.addEventListener("ended", nextSong);
+      })
+        
+     })
+
   }
   function prevSong() {
     songIndex--;
@@ -71,5 +82,8 @@
 play.addEventListener("click", playSong);
 prev.addEventListener("click", prevSong);
 next.addEventListener("click", nextSong);
+
+
+
 
 })();
