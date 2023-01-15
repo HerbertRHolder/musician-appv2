@@ -60,7 +60,7 @@ body.music-page {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transition: all 1s ease;
+                    // transition: all 1s ease;
                     box-shadow: 3px 15px 35px -5px #b16213;
 
                     ion-icon {
@@ -68,9 +68,9 @@ body.music-page {
                     }
                 }
 
-                &-btn:hover {
-                    transform: translateY(-10%);
-                }
+                // &-btn:hover {
+                //     transform: translateY(-10%);
+                // }
 
                 &-prev {
                     width: 100px;

@@ -316,14 +316,10 @@ body.music-page .hero-music-cont .player-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1s ease;
   box-shadow: 3px 15px 35px -5px #b16213;
 }
 body.music-page .hero-music-cont .player-btn ion-icon {
   font-size: 3rem;
-}
-body.music-page .hero-music-cont .player-btn:hover {
-  transform: translateY(-10%);
 }
 body.music-page .hero-music-cont .player-prev {
   width: 100px;
@@ -474,12 +470,16 @@ footer {
   .player-btn {
     width: 56px !important;
     height: 56px !important;
+    transition: none;
   }
   .player-btn ion-icon {
     font-size: 2rem !important;
   }
   .player-btn .player-play {
     padding-left: 0.1rem;
+  }
+  .player-btn:hover {
+    transform: none;
   }
   .playl {
     width: 75%;

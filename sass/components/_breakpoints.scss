@@ -30,10 +30,11 @@
   .hero-music-cont{
     top: 40% !important;
   }
+
   .player-btn{
     width: 56px !important;
     height:56px !important;
-    
+    transition: none;
     ion-icon{
       font-size: 2rem !important;
     }
@@ -41,6 +42,11 @@
       padding-left: .1rem;
     }
   }
+  .player-btn:hover{
+    transform:none;
+  }
+
+  
   .playl{
     width: 75%;
     height: 100%;
