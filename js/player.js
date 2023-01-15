@@ -37,7 +37,7 @@
     audio.src = `music/${song}.mp3`;
   }
   function pauseSong() {
-    pause.remove()
+    pause.remove();
     cont.insertBefore(playCopy,next);
     audio.pause();
     let blfy = document.getElementById("bfly");
