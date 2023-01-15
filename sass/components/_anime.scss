@@ -39,21 +39,21 @@
       height: 5px;
     }
     25% {
-      width:10px;
-      height:10px;
+      width:5px;
+      height:5px;
     }
     50% {
-      width: 5px;
-      height: 5px;
+      width: 2px;
+      height: 2px;
     }
     75% { 
-      width:10px;
-      height:10px;
+      width:5px;
+      height:5px;
     }
   
     100% {
-      width: 5px;
-      height: 5px;
+      width: 2px;
+      height: 2px;
     }
   }
   
@@ -72,8 +72,8 @@
   position: absolute;
   left: -10px;
   transform: rotate(-45deg);
-  width:5px;
-  height: 5px;
+  width:2px;
+  height: 2px;
   background-color: #ffffff;
   animation: size 10s infinite;
 
