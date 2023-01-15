@@ -1,0 +1,59 @@
+.playlist-cont{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    // outline: dashed red;
+
+}
+
+.playl{
+    width: 50%;
+    height: 100%;
+    // outline: dashed red;
+
+}
+.play-single {
+    width: 50%;
+    height: 2.5rem;
+    // outline: dashed red;
+    display: flex;
+    padding-right: 2rem;
+    justify-content: center;
+    .flower{
+        position: relative;
+        width: 50px;
+        height: 100%;
+        background-image: url("img/sunflower-2041px-2041px.png");
+        background-position: center;
+        background-size: 40px;
+        background-repeat: no-repeat;
+        // outline: dashed red;
+      
+      }
+    .title-cont{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        // gap: 1rem;
+        // outline: dashed red;
+
+        .title {
+            width: 50%;
+            height: 100%;
+            // outline: dashed red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+
+    }
+}
+
+

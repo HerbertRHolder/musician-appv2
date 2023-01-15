@@ -17,15 +17,15 @@
   pause.appendChild(pauseIcon);
   pause.addEventListener("click",pauseSong);
   const audio = document.getElementById("audio");
-
+  let songTitle = document.getElementById("song-title");
   const songs = [
-    "ChasinDaisys",
+    "Chasin-Daisys",
     "Drifter",
     "Closer",
     "Railways",
     "A-Tribe-Called-Tenz",
     "Makai",
-    "SofaStories"
+    "Sofa-Stories"
   ];
 
   let songIndex = 2;
@@ -35,6 +35,8 @@
 
   function loadSong(song) {
     audio.src = `music/${song}.mp3`;
+    song = song.replaceAll('-', ' ');
+    songTitle.innerText = song;
   }
   function pauseSong() {
     pause.remove();
@@ -42,7 +44,6 @@
     audio.pause();
     let blfy = document.getElementById("bfly");
     blfy.classList.remove("bfly0");
-
   }
   function playSong() {
     play.remove();

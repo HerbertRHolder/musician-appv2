@@ -33,6 +33,29 @@
 
     }
   }
+  @keyframes size {
+    0% {
+      width: 5px;
+      height: 5px;
+    }
+    25% {
+      width:10px;
+      height:10px;
+    }
+    50% {
+      width: 5px;
+      height: 5px;
+    }
+    75% { 
+      width:10px;
+      height:10px;
+    }
+  
+    100% {
+      width: 5px;
+      height: 5px;
+    }
+  }
   
 .bfly1{
     position: absolute;
@@ -41,4 +64,35 @@
 }
 .bfly0{
     animation: fly 10s infinite;
+}
+.hero-img{
+  position: relative;
+}
+.sparkle1{
+  position: absolute;
+  left: -10px;
+  transform: rotate(-45deg);
+  width:5px;
+  height: 5px;
+  background-color: #ffffff;
+  animation: size 10s infinite;
+
+}
+
+.sparkle2{
+  position: absolute;
+  left: -5px;
+  transform: rotate(-45deg);
+  width:5px;
+  height: 5px;
+  background-color: #ffffff;
+}
+.sparkle3{
+  position: absolute;
+  top: 6px;
+    left: -1px;
+  transform: rotate(-45deg);
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
 }
