@@ -24,12 +24,12 @@
     "Closer",
     "Railways",
     "A-Tribe-Called-Tenz",
-    "SofaStories"
-
+    "Makai",
+    "Levitating"
   ];
 
   let songIndex = 2;
-  let songArry = 5;
+  let songArry = 6;
 
   loadSong(songs[songIndex]);
 
