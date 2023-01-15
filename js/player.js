@@ -21,13 +21,15 @@
   const songs = [
     "ChasinDaisys",
     "Drifter",
+    "Closer",
     "Railways",
     "A-Tribe-Called-Tenz",
     "SofaStories"
+
   ];
 
   let songIndex = 2;
-  let songArry = 4;
+  let songArry = 5;
 
   loadSong(songs[songIndex]);
 
