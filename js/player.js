@@ -40,9 +40,14 @@
     pause.remove()
     cont.insertBefore(playCopy,next);
     audio.pause();
+    let blfy = document.getElementById("bfly");
+    blfy.classList.remove("bfly0");
+
   }
   function playSong() {
     play.remove();
+    let blfy = document.getElementById("bfly");
+    blfy.classList.add("bfly0");
     cont.insertBefore(pause,next);
     audio.play();
   

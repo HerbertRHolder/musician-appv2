@@ -298,6 +298,34 @@ body.music-page .hero-music-cont .player-play ion-icon {
   margin-left: 0.5rem;
 }
 
+@keyframes fly {
+  0% {
+    top: 13%;
+  }
+  25% {
+    top: 23%;
+  }
+  50% {
+    top: 13%;
+  }
+  75% {
+    top: 23%;
+  }
+  100% {
+    top: 13%;
+    transform: translateX(0px);
+  }
+}
+.bfly1 {
+  position: absolute;
+  left: 63%;
+  top: 13%;
+}
+
+.bfly0 {
+  animation: fly 10s infinite;
+}
+
 footer {
   margin-top: 6rem;
   width: 100%;
