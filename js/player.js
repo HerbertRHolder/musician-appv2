@@ -25,7 +25,7 @@
     "Railways",
     "A-Tribe-Called-Tenz",
     "Makai",
-    "Levitating"
+    "SofaStories"
   ];
 
   let songIndex = 2;
